@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carlist renders correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "borderColor": "rgba(0,0,0,0.5)",
+      "borderRadius": 2,
+      "borderWidth": 0.5,
+      "capacityText": {
+        "color": "#8A8A8A",
+      },
+      "carName": {
+        "fontSize": 14,
+      },
+      "card": {
+        "borderColor": "rgba(0,0,0,0.5)",
+        "borderRadius": 2,
+        "borderWidth": 0.5,
+        "marginBottom": 20,
+        "padding": 20,
+      },
+      "img": {
+        "height": 60,
+        "objectFit": "contain",
+        "width": 60,
+      },
+      "marginBottom": 20,
+      "padding": 20,
+      "price": {
+        "color": "#5CB85F",
+      },
+      "textIcon": {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": "2",
+      },
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItem": "center",
+        "flexDirection": "row",
+        "gap": 16,
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <View>
+      <Image
+        style={
+          {
+            "height": 60,
+            "objectFit": "contain",
+            "width": 60,
+          }
+        }
+      />
+    </View>
+    <View>
+      <Text
+        style={
+          {
+            "fontSize": 14,
+          }
+        }
+      >
+        Innova
+      </Text>
+      <View
+        style={
+          {
+            "alignItem": "baseline",
+            "flexDirection": "row",
+            "gap": 16,
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItem": "baseline",
+              "flexDirection": "row",
+              "gap": 0,
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <Text />
+          <Text
+            style={
+              {
+                "color": "#8A8A8A",
+              }
+            }
+          />
+        </View>
+        <View>
+          <Text>
+            <Text />
+            <Text
+              style={
+                {
+                  "color": "#8A8A8A",
+                }
+              }
+            >
+               
+              4
+            </Text>
+          </Text>
+        </View>
+      </View>
+      <Text
+        style={
+          {
+            "color": "#5CB85F",
+          }
+        }
+      >
+        Rp 50.000,00
+      </Text>
+    </View>
+  </View>
+</View>
+`;
